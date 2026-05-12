@@ -1,0 +1,12 @@
+replicaCount: 2
+
+image:
+  repository: shivawmm1810/atlas-board
+  tag: "latest"
+  pullPolicy: Always
+
+service:
+  type: ClusterIP
+  port: 5000
+
+containerPort: 5000
