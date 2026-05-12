@@ -9,7 +9,7 @@ on:
       - main
 
     paths-ignore:
-      - 'helm/atlas-board/values.yaml'
+      - 'helm/**'
 
 jobs:
 
