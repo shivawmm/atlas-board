@@ -2,7 +2,7 @@ replicaCount: 2
 
 image:
   repository: shivawmm1810/atlas-board
-  tag: "latest"
+  tag: "1"
   pullPolicy: Always
 
 service:
