@@ -3,7 +3,7 @@ kind: Service
 
 metadata:
   name: atlas-board-service
-  namespace: {{ .Release.namespace  }}
+  namespace: {{ .Release.Namespace  }}
 
 spec:
   selector:
