@@ -34,6 +34,6 @@ docker run -d -p 5000:5000 --name atlas-board-container atlas-board:v1
 ### DockerHub Image
 
 ```bash
-docker pull YOUR_DOCKERHUB_USERNAME/atlas-board:v1
+docker pull shivawmm1810/atlas-board:v1
 ```
 
