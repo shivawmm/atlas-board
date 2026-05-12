@@ -3,6 +3,7 @@ kind: Deployment
 
 metadata:
   name: atlas-board
+  namespace: {{ .Release.namespace  }}
 
 spec:
   replicas: {{ .Values.replicaCount }}
