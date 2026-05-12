@@ -15,6 +15,7 @@ Atlas Board is a simple Flask-based task management application.
 
 ```bash
 python -m venv venv
+```
 
 ## Docker Commands
 
